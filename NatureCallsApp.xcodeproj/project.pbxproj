@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB6B6E11E54127E00E639D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6B6E01E54127E00E639D2 /* AppDelegate.swift */; };
+		5DB6B6E31E54127E00E639D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6B6E21E54127E00E639D2 /* ViewController.swift */; };
+		5DB6B6E61E54127E00E639D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6B6E41E54127E00E639D2 /* Main.storyboard */; };
+		5DB6B6E81E54127E00E639D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6B6E71E54127E00E639D2 /* Assets.xcassets */; };
+		5DB6B6EB1E54127E00E639D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6B6E91E54127E00E639D2 /* LaunchScreen.storyboard */; };
+		5DB6B6F61E54127E00E639D2 /* NatureCallsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6B6F51E54127E00E639D2 /* NatureCallsAppTests.swift */; };
+		5DB6B7011E54127E00E639D2 /* NatureCallsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6B7001E54127E00E639D2 /* NatureCallsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DB6B6F21E54127E00E639D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB6B6D51E54127D00E639D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB6B6DC1E54127D00E639D2;
+			remoteInfo = NatureCallsApp;
+		};
+		5DB6B6FD1E54127E00E639D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DB6B6D51E54127D00E639D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB6B6DC1E54127D00E639D2;
+			remoteInfo = NatureCallsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DB6B6DD1E54127E00E639D2 /* NatureCallsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureCallsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB6B6E01E54127E00E639D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DB6B6E21E54127E00E639D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DB6B6E51E54127E00E639D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DB6B6E71E54127E00E639D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DB6B6EA1E54127E00E639D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DB6B6EC1E54127E00E639D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB6B6F11E54127E00E639D2 /* NatureCallsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureCallsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB6B6F51E54127E00E639D2 /* NatureCallsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureCallsAppTests.swift; sourceTree = "<group>"; };
+		5DB6B6F71E54127E00E639D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DB6B6FC1E54127E00E639D2 /* NatureCallsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NatureCallsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB6B7001E54127E00E639D2 /* NatureCallsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureCallsAppUITests.swift; sourceTree = "<group>"; };
+		5DB6B7021E54127E00E639D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DB6B6DA1E54127D00E639D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB6B6EE1E54127E00E639D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB6B6F91E54127E00E639D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DB6B6D41E54127D00E639D2 = {
+			isa = PBXGroup;
+			children = (
+				5DB6B6DF1E54127E00E639D2 /* NatureCallsApp */,
+				5DB6B6F41E54127E00E639D2 /* NatureCallsAppTests */,
+				5DB6B6FF1E54127E00E639D2 /* NatureCallsAppUITests */,
+				5DB6B6DE1E54127E00E639D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DB6B6DE1E54127E00E639D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DB6B6DD1E54127E00E639D2 /* NatureCallsApp.app */,
+				5DB6B6F11E54127E00E639D2 /* NatureCallsAppTests.xctest */,
+				5DB6B6FC1E54127E00E639D2 /* NatureCallsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DB6B6DF1E54127E00E639D2 /* NatureCallsApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DB6B6E01E54127E00E639D2 /* AppDelegate.swift */,
+				5DB6B6E21E54127E00E639D2 /* ViewController.swift */,
+				5DB6B6E41E54127E00E639D2 /* Main.storyboard */,
+				5DB6B6E71E54127E00E639D2 /* Assets.xcassets */,
+				5DB6B6E91E54127E00E639D2 /* LaunchScreen.storyboard */,
+				5DB6B6EC1E54127E00E639D2 /* Info.plist */,
+			);
+			path = NatureCallsApp;
+			sourceTree = "<group>";
+		};
+		5DB6B6F41E54127E00E639D2 /* NatureCallsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DB6B6F51E54127E00E639D2 /* NatureCallsAppTests.swift */,
+				5DB6B6F71E54127E00E639D2 /* Info.plist */,
+			);
+			path = NatureCallsAppTests;
+			sourceTree = "<group>";
+		};
+		5DB6B6FF1E54127E00E639D2 /* NatureCallsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DB6B7001E54127E00E639D2 /* NatureCallsAppUITests.swift */,
+				5DB6B7021E54127E00E639D2 /* Info.plist */,
+			);
+			path = NatureCallsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DB6B6DC1E54127D00E639D2 /* NatureCallsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB6B7051E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsApp" */;
+			buildPhases = (
+				5DB6B6D91E54127D00E639D2 /* Sources */,
+				5DB6B6DA1E54127D00E639D2 /* Frameworks */,
+				5DB6B6DB1E54127D00E639D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NatureCallsApp;
+			productName = NatureCallsApp;
+			productReference = 5DB6B6DD1E54127E00E639D2 /* NatureCallsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DB6B6F01E54127E00E639D2 /* NatureCallsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB6B7081E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsAppTests" */;
+			buildPhases = (
+				5DB6B6ED1E54127E00E639D2 /* Sources */,
+				5DB6B6EE1E54127E00E639D2 /* Frameworks */,
+				5DB6B6EF1E54127E00E639D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB6B6F31E54127E00E639D2 /* PBXTargetDependency */,
+			);
+			name = NatureCallsAppTests;
+			productName = NatureCallsAppTests;
+			productReference = 5DB6B6F11E54127E00E639D2 /* NatureCallsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DB6B6FB1E54127E00E639D2 /* NatureCallsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB6B70B1E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsAppUITests" */;
+			buildPhases = (
+				5DB6B6F81E54127E00E639D2 /* Sources */,
+				5DB6B6F91E54127E00E639D2 /* Frameworks */,
+				5DB6B6FA1E54127E00E639D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DB6B6FE1E54127E00E639D2 /* PBXTargetDependency */,
+			);
+			name = NatureCallsAppUITests;
+			productName = NatureCallsAppUITests;
+			productReference = 5DB6B6FC1E54127E00E639D2 /* NatureCallsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DB6B6D51E54127D00E639D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Iavor Dekov";
+				TargetAttributes = {
+					5DB6B6DC1E54127D00E639D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5DB6B6F01E54127E00E639D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DB6B6DC1E54127D00E639D2;
+					};
+					5DB6B6FB1E54127E00E639D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DB6B6DC1E54127D00E639D2;
+					};
+				};
+			};
+			buildConfigurationList = 5DB6B6D81E54127D00E639D2 /* Build configuration list for PBXProject "NatureCallsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DB6B6D41E54127D00E639D2;
+			productRefGroup = 5DB6B6DE1E54127E00E639D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB6B6DC1E54127D00E639D2 /* NatureCallsApp */,
+				5DB6B6F01E54127E00E639D2 /* NatureCallsAppTests */,
+				5DB6B6FB1E54127E00E639D2 /* NatureCallsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DB6B6DB1E54127D00E639D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6B6EB1E54127E00E639D2 /* LaunchScreen.storyboard in Resources */,
+				5DB6B6E81E54127E00E639D2 /* Assets.xcassets in Resources */,
+				5DB6B6E61E54127E00E639D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB6B6EF1E54127E00E639D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB6B6FA1E54127E00E639D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB6B6D91E54127D00E639D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6B6E31E54127E00E639D2 /* ViewController.swift in Sources */,
+				5DB6B6E11E54127E00E639D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB6B6ED1E54127E00E639D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6B6F61E54127E00E639D2 /* NatureCallsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB6B6F81E54127E00E639D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB6B7011E54127E00E639D2 /* NatureCallsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DB6B6F31E54127E00E639D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB6B6DC1E54127D00E639D2 /* NatureCallsApp */;
+			targetProxy = 5DB6B6F21E54127E00E639D2 /* PBXContainerItemProxy */;
+		};
+		5DB6B6FE1E54127E00E639D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DB6B6DC1E54127D00E639D2 /* NatureCallsApp */;
+			targetProxy = 5DB6B6FD1E54127E00E639D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DB6B6E41E54127E00E639D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB6B6E51E54127E00E639D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DB6B6E91E54127E00E639D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DB6B6EA1E54127E00E639D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DB6B7031E54127E00E639D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DB6B7041E54127E00E639D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DB6B7061E54127E00E639D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NatureCallsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5DB6B7071E54127E00E639D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NatureCallsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5DB6B7091E54127E00E639D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NatureCallsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureCallsApp.app/NatureCallsApp";
+			};
+			name = Debug;
+		};
+		5DB6B70A1E54127E00E639D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NatureCallsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NatureCallsApp.app/NatureCallsApp";
+			};
+			name = Release;
+		};
+		5DB6B70C1E54127E00E639D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NatureCallsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NatureCallsApp;
+			};
+			name = Debug;
+		};
+		5DB6B70D1E54127E00E639D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NatureCallsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NatureCallsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DB6B6D81E54127D00E639D2 /* Build configuration list for PBXProject "NatureCallsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB6B7031E54127E00E639D2 /* Debug */,
+				5DB6B7041E54127E00E639D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DB6B7051E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB6B7061E54127E00E639D2 /* Debug */,
+				5DB6B7071E54127E00E639D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DB6B7081E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB6B7091E54127E00E639D2 /* Debug */,
+				5DB6B70A1E54127E00E639D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DB6B70B1E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DB6B70C1E54127E00E639D2 /* Debug */,
+				5DB6B70D1E54127E00E639D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DB6B6D51E54127D00E639D2 /* Project object */;
+}
