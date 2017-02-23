@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					5DB6B6DC1E54127D00E639D2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9KQ77A48PB;
 						ProvisioningStyle = Automatic;
 					};
 					5DB6B6F01E54127E00E639D2 = {
@@ -412,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KQ77A48PB;
 				INFOPLIST_FILE = NatureCallsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KQ77A48PB;
 				INFOPLIST_FILE = NatureCallsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IavorDekov.NatureCallsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +510,7 @@
 				5DB6B7071E54127E00E639D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB6B7081E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				5DB6B70A1E54127E00E639D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB6B70B1E54127E00E639D2 /* Build configuration list for PBXNativeTarget "NatureCallsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				5DB6B70D1E54127E00E639D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
